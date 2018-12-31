@@ -1,0 +1,49 @@
+html {
+    min-height: 100%;
+}
+body {
+    background-image: linear-gradient(to bottom, #ffecd2, #fedcbd, #feccab, #ffba9c, #ffa892);
+}
+
+.nav_grid {
+    margin-left: 70%;
+    margin-top: 19px;
+    display:grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-gap: 1pt;
+    
+}
+
+a:hover {
+    color: #FF8B76; 
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.ani {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    grid-area: 1 / 1;
+  
+}
+
+.services {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    grid-area: 1 / 2;
+    
+}
+
+.about_me {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    grid-area: 1 / 3;
+    
+}
